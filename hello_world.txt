@@ -2,43 +2,42 @@ Hi, I am krish maniyar
 
 -> Terminal Cheatsheet
 
-pwd - print working directory
-ls - list
-ls -F - prints list by adding a marker to file and directory names to indicate what they are
-ls --help - displays more information on how to use the command or program
-ls -t - lists itmes by time of last change instead of alphabetically
-ls -r - lists the contents of a directory in reverse order
-cd - change directory
-cd .. - shell to move up one directory level
-ls -F -a - -a stands for show all includeing hidden files
-cd / - stands for the root directory
-cd ../.. - this command goes up two levels
-cd ~ - stands for the user's home directory
-ls -s - will displsy the size of files and directories alongside the names
-ls -S - will osrt the files and directories by size
-Pressing Tab - shell automatically completes the directory name
-Pressing Tab Twice - brings a list of all the files
-press(a letter)then presses Tab again will show files starting with that letter
-mkdir - make directory 
-mkdir location - makes directory in that location
-mkdir -p directories - allows to create a directory with nested subdirectories example - mkdir -p ../project/data ../project/results
-ls -R - list all nested subdirectories within a directory
-ls -FR - to recursively list the new directory hierarchy
-nano draft.txt - will create a text file and run a text editor called nano 
-Ctrl + O - will save the file
-Ctrl + X - to quit the editor
-touch - command generates a new file called name.txt in your current directory.
-ls -l - to inspect the file
-rm - remove files entries
-mv folder/draft.txt folder/text.txt - in this case it will rename the file from draft to text
-mv folder/draft.txt . - the effect is to move the file from the directory it was in to the current working directory
-mv file1.jpd file2.jpg ../raw - will transfer file to one above the current directory
-cp - copies file instead of moving
-cp file1.txt folder1/file2.txt - will copy file1.txt to folder folder1 with name file2.txt
-cp -r folder1 foler1_backup - will copy a directory and all its component by using the recursive option -r
-rm -i - will prompt befor(every) removal (use Y to confirm deletion or N to keep the file).
-rm -r - can remove a directory and all its contents
-rm -r -i - will remove directory and all its contents if we use the recursive option -r and will also get confirmation prompts
+1. pwd -> print working directory
+2. ls -> list
+3. ls -F -> prints list by adding a marker to file and directory names to indicate what they are
+4. ls --help -> displays more information on how to use the command or program
+5. ls -t -> lists itmes by time of last change instead of alphabetically
+6. ls -r -> lists the contents of a directory in reverse order
+7. cd -> change directory
+8. cd .. -> shell to move up one directory level
+9. ls -F -a -> -a stands for show all includeing hidden files
+10. cd / -> stands for the root directory
+11. cd ../.. -> this command goes up two levels
+12. cd ~ -> stands for the user's home directory
+13. ls -s -> will displsy the size of files and directories alongside the names
+14. ls -S -> will osrt the files and directories by size
+15. Pressing Tab -> shell automatically completes the directory name
+16. Pressing Tab Twice -> brings a list of all the files press(a letter)then presses Tab again will show files starting with that letter
+17. mkdir -> make directory 
+18. mkdir location -> makes directory in that location
+19. mkdir -p directories -> allows to create a directory with nested subdirectories example - mkdir -p ../project/data ../project/results
+20. ls -R -> list all nested subdirectories within a directory
+21. ls -FR -> to recursively list the new directory hierarchy
+22. nano draft.txt -> will create a text file and run a text editor called nano 
+23. Ctrl + O -> will save the file
+24. Ctrl + X -> to quit the editor
+25. touch -> command generates a new file called name.txt in your current directory.
+26. ls -l -> to inspect the file
+27. rm -> remove files entries
+28. mv folder/draft.txt folder/text.txt -> in this case it will rename the file from draft to text
+29. mv folder/draft.txt . -> the effect is to move the file from the directory it was in to the current working directory
+30. mv file1.jpd file2.jpg ../raw -> will transfer file to one above the current directory
+31. cp -> copies file instead of moving
+32. cp file1.txt folder1/file2.txt -> will copy file1.txt to folder folder1 with name file2.txt
+33. cp -r folder1 foler1_backup -> will copy a directory and all its component by using the recursive option -r
+34. rm -i -> will prompt befor(every) removal (use Y to confirm deletion or N to keep the file).
+35. rm -r -> can remove a directory and all its contents
+36. rm -r -i -> will remove directory and all its contents if we use the recursive option -r and will also get confirmation prompts
 
 -> Git Cheatsheet
 
