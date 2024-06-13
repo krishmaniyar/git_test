@@ -1,1 +1,55 @@
 Hi, I am krish maniyar
+
+-> Terminal Cheatsheet
+
+pwd - print working directory
+ls - list
+ls -F - prints list by adding a marker to file and directory names to indicate what they are
+ls --help - displays more information on how to use the command or program
+ls -t - lists itmes by time of last change instead of alphabetically
+ls -r - lists the contents of a directory in reverse order
+cd - change directory
+cd .. - shell to move up one directory level
+ls -F -a - -a stands for show all includeing hidden files
+cd / - stands for the root directory
+cd ../.. - this command goes up two levels
+cd ~ - stands for the user's home directory
+ls -s - will displsy the size of files and directories alongside the names
+ls -S - will osrt the files and directories by size
+Pressing Tab - shell automatically completes the directory name
+Pressing Tab Twice - brings a list of all the files
+press(a letter)then presses Tab again will show files starting with that letter
+mkdir - make directory 
+mkdir location - makes directory in that location
+mkdir -p directories - allows to create a directory with nested subdirectories example - mkdir -p ../project/data ../project/results
+ls -R - list all nested subdirectories within a directory
+ls -FR - to recursively list the new directory hierarchy
+nano draft.txt - will create a text file and run a text editor called nano 
+Ctrl + O - will save the file
+Ctrl + X - to quit the editor
+touch - command generates a new file called name.txt in your current directory.
+ls -l - to inspect the file
+rm - remove files entries
+mv folder/draft.txt folder/text.txt - in this case it will rename the file from draft to text
+mv folder/draft.txt . - the effect is to move the file from the directory it was in to the current working directory
+mv file1.jpd file2.jpg ../raw - will transfer file to one above the current directory
+cp - copies file instead of moving
+cp file1.txt folder1/file2.txt - will copy file1.txt to folder folder1 with name file2.txt
+cp -r folder1 foler1_backup - will copy a directory and all its component by using the recursive option -r
+rm -i - will prompt befor(every) removal (use Y to confirm deletion or N to keep the file).
+rm -r - can remove a directory and all its contents
+rm -r -i - will remove directory and all its contents if we use the recursive option -r and will also get confirmation prompts
+
+-> Git Cheatsheet
+
+1. git clone git@github.com:USER-NAME/REPOSITORY-NAME.git -> to clone the git by ssh option on your device
+2. git status -> to check the status of your git page
+3. git add hello_world.txt -> adds your hello_world.txt file to the staging area in Git
+4. git commit -m "Add hello_world.txt" -> this will add and commit the file
+5. git log -> see other details which include the author who made the commit and the date and time of when the commit was made
+6. code . -> to open that folder or directory in your vs code
+7. ctrl+s -> to save file in vs code
+8. ctrl+` -> to open terminal in vs code
+9. git add . -> to add your currrent directory in staging area in Git
+10. git commit -m "Edit README.md and hello_world.txt" -> to commit two or more files together and Edit is used for already existing files
+11. git push or git push origin main -> to push changes to your REPOSITORY on Github
