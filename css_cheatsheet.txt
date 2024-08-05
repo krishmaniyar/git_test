@@ -1,0 +1,18 @@
+1. * -> is a universal selector
+2. <div> -> A type selector (or element selector) will select all elements of the given element type.
+3. <div class = ".."> -> Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element.
+4. <div id = "..> -> The major difference between classes and IDs is that an element can only have one ID. It cannot be repeated on a single page and should not contain any whitespace.
+5. you can group two or more selectors to have commmon things at one place and other uncommon things in thier own place, you can write common things for two by using "," comma.
+6. you can join subsection and header of vlass by using "." or can also join id by using "#".
+7. font-family: "Times New Roman" ,serif
+8. font-size: 22px
+9. font-weight: bold -> to make the font bold.
+10. font-weight :700 -> this can be use to change bolness of the font in a scale of 0 to 1000.
+11. text-align: center
+12. img
+    {
+        heigh: 250px;
+        width: auto;
+    }
+13. <link rel="stylesheet" href="styles.css"> -> is to give path of the css file in html file. It will use external CSS method.
+14. 
