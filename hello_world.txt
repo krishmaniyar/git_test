@@ -14,7 +14,7 @@ Hi, I am krish maniyar
 10. cd / -> stands for the root directory
 11. cd ../.. -> this command goes up two levels
 12. cd ~ -> stands for the user's home directory
-13. ls -s -> will displsy the size of files and directories alongside the names
+13. ls -s -> will display the size of files and directories alongside the names
 14. ls -S -> will osrt the files and directories by size
 15. Pressing Tab -> shell automatically completes the directory name
 16. Pressing Tab Twice -> brings a list of all the files press(a letter)then presses Tab again will show files starting with that letter
