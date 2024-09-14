@@ -1,0 +1,48 @@
+1. ! -> for code snippet
+2. shift+ctrl+a -> wrap with abbreviation
+3. ctrl+k -> remove tag
+4. div -> <div></div>
+5. a -> <a href=""></a>
+6. button -> <button></button>
+7. span -> <span></span>
+8. div.hello or .hello -> <div class="hello"></div>
+9. div#hi or #hi -> <div id="hi"></div>
+10. link -> <link rel="stylesheet" href="">
+11. button[type="button"] -> <button type="button"></button>
+12. > -> child symbol
+13. .hello>#hi -> <div class="hello"><id class="hi"></id></div>
+14. .hello>#hi*3 -> <div class="hello">
+                        <div id="hi"></div>
+                        <div id="hi"></div>
+                        <div id="hi"></div>
+                    </div>
+15. .hello>#hi*2{my name is krish} -> <div class="hello">
+                                            <div id="hi">my name is krish</div>
+                                            <div id="hi">my name is krish</div>
+                                        </div>
+16. head>nav>ul>li{list item $} -> <header>
+                                        <nav>
+                                            <ul>
+                                                <li>list item 1</li>
+                                                <li>list item 2</li>
+                                                <li>list item 3</li>
+                                            </ul>
+                                        </nav>
+                                    </header>
+17. $ it will change to the number of division.
+18. div*3.class_$ -> <div class="class_1"></div>
+                     <div class="class_2"></div>
+                     <div class="class_3"></div>
+19. + -> siblings
+20. header+main+footer -> <header></header>
+                          <main></main>
+                          <footer></footer>
+21. ^ -> climb up from siblings
+22. header>nav^main+footer or (header>nav)+main+footer ->   <header>
+                                                                <nav></nav>
+                                                            </header>
+                                                            <main></main>
+                                                            <footer></footer>
+23. form -> <form action=""></form>
+24. w10 -> in css it will make width:10px;
+25. w10% -> width:10%;
